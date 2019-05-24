@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>data incubator project</title>
+    <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://sp-bootstrap.global.ssl.fastly.net/8.0.0/sp-bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria Hallelujah|Satisfy|Annie Use Your Telescope" rel="stylesheet">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <script src="/public/render.js"></script>
+    
+  </head>
+  <body>
+    <header>
+      <h2>
+            Fun w&iexclth Music!
+      </h2>
+    </header>
+
+     <ul class="nav" id="nav-item-container">
+        
+
+      </ul>
+
+    <script>
+    
+    renderNavbar();</script>
+
+    <main>
+
+      <p style="font-family:Gloria Hallelujah">The Hit the hit FUNction (the functioning is still questionable now though...) predicts which one song in your album you should promote!</p>
+      <form class="home">
+        <input class="home"  name="song" required type="text" maxlength="100" placeholder="search for an album">
+        <input class="home"  name="artist" required type="text" placeholder="the artist names">
+        <button class="home" type="submit">Submit</button>
+      </form>
+      
+      <h3 style="font-family:Annie Use Your Telescope">Album:</h3>
+      <section class="results" id='albumlink'></section>
+
+      <h3 style="font-family:Annie Use Your Telescope" id="results">Audio Features from Spotify database:</h3>
+      <section class="results" id='print'>
+          <!-- <div  id="print"></div> -->
+          
+        
+        
+        
+        </section>
+    </main>
+    
+    
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/public/predictoranalysis.js"></script>
+    
+    
+  
+
+
+  </body>
+</html>
+
+
